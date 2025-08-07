@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import CTA from "./Footer";
 
-cosnt CTA = () => {
+const CTA = () => {
   return (
     <section className="py-16 text-center bg-primary text-primary-foreground">
       <h3 className="text-3xl font-bold mb-4">Ready to get started?</h3>
