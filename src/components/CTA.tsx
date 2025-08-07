@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import CTA from "./Footer";
 
 const CTA = () => {
   return (
