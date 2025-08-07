@@ -1,4 +1,4 @@
-export function Features() {
+const Features = () => {
   const features = [
     "Modern UI with Tailwind CSS",
     "Accessible components",
@@ -20,5 +20,6 @@ export function Features() {
       </div>
     </section>
   );
-}
+};
+
 export default Features;
