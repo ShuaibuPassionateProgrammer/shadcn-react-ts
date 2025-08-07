@@ -1,11 +1,19 @@
-import { Button } from "@/components/ui/button"
+import { Navbar } from "./components/Navbar";
+import { Hero } from "./components/Hero";
+import { Features } from "./components/Features";
+import { CTA } from "./components/CTA";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
-    <div className="flex min-h-svh flex-col items-center justify-center">
-      <Button>Click me</Button>
+    <div className="font-sans">
+      <Navbar />
+      <Hero />
+      <Features />
+      <CTA />
+      <Footer />
     </div>
-  )
+  );
 }
 
 export default App;
