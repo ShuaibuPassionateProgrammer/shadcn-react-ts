@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 
-export function Navbar() {
+const Navbar = () => {
   return (
     <header className="flex justify-between items-center py-4 px-6 border-b">
       <h1 className="text-xl font-bold">MyBrand</h1>
@@ -11,5 +11,6 @@ export function Navbar() {
       </nav>
     </header>
   );
-}
+};
+
 export default Navbar;
