@@ -5,9 +5,10 @@ import Hero from "./components/Hero";
 import Features from "./components/Features";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer";
-import SignUp from "./pages/SignUp";
+import SignUp from "./components/pages/SignUp";
+import HomePage from "./components/pages/HomePage";
 
-function HomePage() {
+/*function HomePage() {
   return (
     <>
       <Hero />
@@ -15,7 +16,7 @@ function HomePage() {
       <CTA />
     </>
   );
-}
+}*/
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/features" element={<Features />} />
+        <Route path="cta" element={<CTA />} />
         <Route path="/signup" element={<SignUp />} />
       </Routes>
       <Footer />
